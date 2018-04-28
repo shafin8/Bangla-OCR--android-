@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/myCamera"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera"
+        />
+    <item
+        android:id="@+id/mybutton"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_gallery"
+        />
+
+    <item
+        android:icon="@drawable/konika"
+        android:title="Language"
+        >
+        <menu>
+            <item
+                android:id="@+id/bangla"
+                android:title="Bangla" />
+            <item
+                android:id="@+id/english"
+                android:title="English" />
+        </menu>
+    </item>
+</menu>
